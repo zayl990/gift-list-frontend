@@ -19,8 +19,7 @@ export const Header = () => {
     <>
       <nav className="menu-app">
         <CustomNavLink to="/gift">Gift</CustomNavLink>
-        <CustomNavLink to="/test">Test</CustomNavLink>
-        <CustomNavLink to="/test2">Test2</CustomNavLink>
+        <CustomNavLink to="/child">Child</CustomNavLink>
       </nav>
       <h1>Santa APP</h1>
     </>
