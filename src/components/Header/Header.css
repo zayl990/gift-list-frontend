@@ -1,0 +1,27 @@
+.menu-app {
+  display: flex;
+  /* background-color: hsl(271.15deg 75.93% 52.75% / 50%); */
+}
+
+.menu-app a {
+  color: hsl(271.15deg 75.93% 52.75% / 100%);
+
+  font-size: 1.3em;
+  display: block;
+  padding: .25em .75em;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #fff;
+  transition: background-color .4s, color .4s, order .4s;
+  order: 2
+}
+
+.menu-app a:hover {
+  background-color: hsl(271.15deg 75.93% 52.75% / 50%);
+}
+
+.menu-app a.active {
+  color: #fff;
+  background-color: hsl(271.15deg 75.93% 52.75% / 100%);
+  order: 1
+}
