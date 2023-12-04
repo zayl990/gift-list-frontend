@@ -16,10 +16,10 @@ export default function App() {
     <div className='App'>
       <Header />
       <Routes>
-        <Route path="/" element={<HomeView />} />
-        <Route path="/gift" element={<GiftsView />} />
-        {/* <Route path="/gift/:idOfGift" element={<SingleGiftView />} />
-        <Route path="/child" element={<ChildView />} />
+        {/* <Route path="/" element={<HomeView />} />
+        <Route path="/gift" element={<GiftsView />} /> */}
+        <Route path="/gift/:idOfGift" element={<SingleGiftView />} />
+        {/* <Route path="/child" element={<ChildView />} />
         <Route path="*" element={<NotFoundView />} /> */}
       </Routes>
     </div>
